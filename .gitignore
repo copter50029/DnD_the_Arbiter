@@ -1,0 +1,143 @@
+# ==============================================================================
+# SECRETS, API KEYS & CREDENTIALS (CRITICAL: NEVER COMMIT)
+# ==============================================================================
+# Android local configuration & Gemini API Key store (gemini.api.key)
+local.properties
+/local.properties
+local.defaults.properties
+
+# Custom secrets, credentials & property files
+secrets.properties
+secure.properties
+apikey.properties
+apikeys.properties
+api-keys.properties
+keys.properties
+signing.properties
+keystore.properties
+
+# Environment variable files
+.env
+.env.*
+*.env
+
+# Google Services & Firebase configurations (contains client keys & app IDs)
+google-services.json
+GoogleService-Info.plist
+
+# Keystores, Signing Keys & Certificates
+*.jks
+*.keystore
+*.p12
+*.key
+*.pem
+*.pk8
+*.crt
+*.der
+*.cer
+
+# OAuth & Service Account credentials
+client_secret*.json
+service-account*.json
+credentials.json
+*secret*.json
+*credential*.json
+
+# ==============================================================================
+# DATA, LOCAL DATABASES & EXPORTS (CRITICAL: NEVER COMMIT USER DATA)
+# ==============================================================================
+# SQLite & Room database files, write-ahead logs, and shared memory
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Specific App Database (Room: arbiter_grimoire.db)
+arbiter_grimoire.db*
+
+# Room auto-migration / export schemas (if sensitive or not intended for VCS)
+schemas/
+room-schemas/
+*/schemas/
+
+# Database dumps, backups & SQL files
+*.sql
+*.dump
+*.dump.sql
+*.bak
+*.backup
+
+# Data exports, logs & metrics
+*.csv
+*.tsv
+*.log
+logs/
+data/
+data_dumps/
+app_data/
+
+# ==============================================================================
+# ANDROID BUILD OUTPUTS & GENERATED ARTIFACTS
+# ==============================================================================
+# Build directories (root and all submodules like app/build/)
+build/
+*/build/
+
+# Built application packages
+*.apk
+*.ap_
+*.aab
+
+# Dalvik / ART VM files
+*.dex
+
+# Java / Kotlin class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+captures/
+proguard/
+
+# Gradle caches
+.gradle/
+
+# Kotlin compiler daemon caches & sessions
+.kotlin/
+
+# External native builds (C / C++)
+.externalNativeBuild/
+.cxx/
+cmake-build-*/
+ndkBuild/
+
+# ==============================================================================
+# IDE & WORKSPACE CONFIGURATIONS (Android Studio / IntelliJ / VS Code)
+# ==============================================================================
+# Project module files
+*.iml
+
+# Android Studio / IntelliJ IDEA settings
+.idea/
+
+# VS Code workspace
+.vscode/
+
+# ==============================================================================
+# OPERATING SYSTEM & EDITOR TEMPORARY FILES
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+*.swp
+*.swo
+*.tmp

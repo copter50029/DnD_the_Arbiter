@@ -1,0 +1,125 @@
+<resources>
+    <!-- App Information & Branding -->
+    <string name="app_name">the Arbiter</string>
+    <string name="app_name_full">ผู้ชี้นำ (the Arbiter)</string>
+    <string name="app_subtitle">คู่หูอัจฉริยะสำหรับดันเจียนมาสเตอร์ (TTRPG)</string>
+    <string name="app_tagline">ที่ปรึกษาทฤษฎีเกมและจิตวิทยาผู้เล่นสำหรับ DM</string>
+
+    <!-- Navigation Tabs / Destinations -->
+    <string name="nav_campaigns">บันทึกแคมเปญ</string>
+    <string name="nav_session_architect">ผู้ออกแบบเซสชัน</string>
+    <string name="nav_dramatis_personae">บุคคลในเรื่องราว</string>
+    <string name="nav_grand_compendium">คลังข้อมูล SRD</string>
+
+    <!-- Screen 1: Campaign Chronicle -->
+    <string name="screen_campaigns_title">บันทึกแคมเปญแห่งโชคชะตา</string>
+    <string name="screen_campaigns_subtitle">มหากาพย์ ดินแดน และการตั้งค่าวิหาร</string>
+    <string name="campaign_stats_title">ภาพรวมดินแดน</string>
+    <string name="campaign_stat_sessions">เซสชันที่บันทึกแล้ว</string>
+    <string name="campaign_stat_bosses">บอสผู้ทรงอำนาจ</string>
+    <string name="campaign_stat_npcs">NPC ในความทรงจำ</string>
+    <string name="campaign_level_badge">ปาร์ตี้ Lv. %1$d</string>
+    <string name="btn_new_campaign">จารึกแคมเปญใหม่</string>
+    <string name="dialog_new_campaign_title">หล่อหลอมดินแดนใหม่</string>
+    <string name="field_campaign_title">ชื่อแคมเปญ</string>
+    <string name="field_campaign_desc">ปูมหลังและตำนานของโลก</string>
+    <string name="field_campaign_party_level">เลเวลเฉลี่ยของปาร์ตี้ (1-20)</string>
+    <string name="no_campaigns_placeholder">ยังไม่มีดินแดนถูกบันทึกลงในคัมภีร์ เริ่มจารึกแคมเปญแรกของคุณด้านล่าง</string>
+    <string name="settings_api_key_title">รหัสผ่านวิหาร Gemini API</string>
+    <string name="settings_api_key_desc">ตั้งค่า Google Gemini API Key เพื่อปลุกที่ปรึกษาอัจฉริยะ</string>
+    <string name="settings_api_key_hint">กรอก Gemini API Key (เช่น AIzaSy...)</string>
+    <string name="settings_api_key_save">ผูกรหัสผ่านวิหาร</string>
+    <string name="settings_api_key_status_bound">ผูกรหัสผ่านวิหารลงในคัมภีร์เรียบร้อยแล้ว</string>
+    <string name="settings_api_key_status_missing">ยังไม่ได้ระบุรหัสผ่าน — ระบบวิเคราะห์ AI จะไม่ทำงาน</string>
+    <string name="settings_language_title">ภาษาของคัมภีร์ (Language)</string>
+    <string name="settings_language_toggle">สลับเป็น English</string>
+    <string name="settings_language_current">ภาษาปัจจุบัน: ภาษาไทย</string>
+    <string name="settings_model_title">โมเดล AI พยากรณ์ (Oracle Model)</string>
+    <string name="settings_model_desc">เลือกเวอร์ชันของ Gemini หากโมเดลมีผู้ใช้งานหนาแน่น (503) สามารถสลับไปใช้ gemini-1.5-flash หรือลองใหม่อีกครั้ง</string>
+    <string name="btn_change_model">เปลี่ยนโมเดล / ตั้งค่า</string>
+
+    <!-- Screen 2: Session Architect -->
+    <string name="screen_session_title">ผู้ออกแบบเซสชัน</string>
+    <string name="session_select_campaign_prompt">เลือกแคมเปญที่ต้องการจัดการ</string>
+    <string name="session_number_format">เซสชันที่ #%1$d</string>
+    <string name="session_recap_header">เสียงสะท้อนจากอดีต (สรุปเซสชันก่อนหน้า)</string>
+    <string name="session_recap_empty">ยังไม่มีเสียงสะท้อนจากอดีต นี่คือเซสชันเปิดปฐมบทของดินแดนนี้</string>
+    <string name="session_draft_header">แผนเตรียมการเซสชันและจุดหักมุม</string>
+    <string name="session_draft_hint">ร่างโครงร่างการเผชิญหน้า ทางเลือกที่กลืนไม่เข้าคายไม่ออก จุดตัดทางศีลธรรม หรือปริศนาในลานประลองบอส...</string>
+    <string name="session_past_events_hint">สรุปเหตุการณ์สำคัญจากเซสชันที่ผ่านมาสั้นๆ (เพื่อเป็นบริบทให้ AI)...</string>
+    <string name="btn_consult_oracle">ปรึกษาวิหารเทพพยากรณ์ (Gemini 3.8 Flash)</string>
+    <string name="session_ai_analyzing">กำลังเชื่อมต่อวิหารพยากรณ์และใคร่ครวญในอักขระโบราณ...</string>
+    <string name="session_ai_card_psychology_title">จิตวิทยาผู้เล่นและจังหวะนาฏกรรม</string>
+    <string name="session_ai_card_psychology_subtitle">วงจรความตึงเครียด-ผ่อนคลาย, แบบจำลองผู้เล่น Bartle และป้องกันการต้อนผู้เล่นเข้ามุม</string>
+    <string name="session_ai_card_game_theory_title">ทฤษฎีเกมและโครงสร้างทางเลือก</string>
+    <string name="session_ai_card_game_theory_subtitle">จุดสมดุลแนช (Nash), กลยุทธ์เด่น และเมทริกซ์การตัดสินใจที่ซับซ้อน</string>
+    <string name="btn_save_session">ประทับตราบันทึกลงคัมภีร์ (บันทึกเซสชัน)</string>
+    <string name="session_save_success">บันทึกเซสชันถูกประทับตราลงในคัมภีร์เรียบร้อยแล้ว</string>
+    <string name="session_history_header">ประวัติเซสชันที่ถูกบันทึกไว้ในดินแดนนี้</string>
+
+    <!-- Screen 3: Dramatis Personae -->
+    <string name="screen_dramatis_title">บุคคลในเรื่องราว</string>
+    <string name="tab_boss">บอสผู้ทรงอำนาจ</string>
+    <string name="tab_npc">NPC คนสำคัญ</string>
+    <string name="character_name_label">ชื่อตัวละคร / ตัวตน</string>
+    <string name="character_name_hint">เช่น ลอร์ดมาลาคอร์ จอมลิชแห่งหอคอยใต้สมุทร</string>
+    <string name="character_backstory_label">ปูมหลังและความทะเยอทะยานเชิงกลยุทธ์</string>
+    <string name="character_backstory_hint">ร่างจุดกำเนิด แก่นอุดมการณ์ แผนการลับ หรือจุดที่เป็นไพ่ต่อรอง...</string>
+    <string name="btn_attach_monster">เชื่อมโยงค่าสเตตัสมอนสเตอร์ SRD</string>
+    <string name="dialog_select_monster_title">เลือกมอนสเตอร์จากคลัง SRD</string>
+    <string name="character_attached_monster">มอนสเตอร์ SRD ที่เชื่อมโยง: %1$s</string>
+    <string name="character_no_monster">ยังไม่ได้เชื่อมโยงมอนสเตอร์ SRD</string>
+    <string name="btn_detach_monster">ยกเลิกการเชื่อม</string>
+    <string name="btn_analyze_boss">วิเคราะห์กลยุทธ์ Minimax และเงื่อนไขการชนะ</string>
+    <string name="btn_analyze_npc">วิเคราะห์พลวัตตาต่อตาและข้อแลกเปลี่ยน</string>
+    <string name="feedback_boss_tactics_title">กลยุทธ์ Minimax และเงื่อนไขชนะ (นอกเหนือจากการล้างปาร์ตี้)</string>
+    <string name="feedback_boss_psychology_title">เงามืดในจิตใจและจุดตายทางจิตวิทยา</string>
+    <string name="feedback_npc_gametheory_title">การจัดแนวทางแบบตาต่อตาและความไม่เท่าเทียมของข้อมูล</string>
+    <string name="feedback_npc_psychology_title">ไพ่ต่อรองทางอารมณ์และผลประโยชน์ต่างตอบแทน</string>
+    <string name="btn_save_character">จารึกตัวละครลงในคัมภีร์</string>
+    <string name="character_save_success">จารึกข้อมูลตัวละครลงในคัมภีร์เรียบร้อยแล้ว</string>
+    <string name="characters_list_header">รายนามตัวละครที่จารึกไว้ในดินแดนนี้</string>
+    <string name="no_characters_placeholder">ยังไม่มีบุคคลใดถูกจารึกไว้ในดินแดนนี้</string>
+
+    <!-- Screen 4: Grand Compendium -->
+    <string name="screen_compendium_title">คลังข้อมูล SRD สากล</string>
+    <string name="compendium_subtitle">สารานุกรมสิ่งมีชีวิต D&amp;D 5e System Reference Document</string>
+    <string name="compendium_search_hint">ค้นหาสิ่งมีชีวิตตามชื่อ (เช่น dragon, lich, goblin)...</string>
+    <string name="compendium_stat_cr">CR</string>
+    <string name="compendium_cr_badge">CR %1$s</string>
+    <string name="compendium_ac_label">ค่าเกราะ (AC)</string>
+    <string name="compendium_hp_label">พลังชีวิต (HP)</string>
+    <string name="compendium_type_label">ประเภท</string>
+    <string name="compendium_size_label">ขนาด</string>
+    <string name="compendium_alignment_label">แนวคิด (Alignment)</string>
+    <string name="compendium_speed_label">ความเร็ว</string>
+    <string name="compendium_actions_header">การกระทำและความสามารถระดับตำนาน</string>
+    <string name="compendium_special_abilities_header">คุณลักษณะพิเศษ</string>
+    <string name="btn_export_to_dramatis">ส่งต่อไปยังบุคคลในเรื่องราว</string>
+    <string name="compendium_empty">ไม่พบอสูรหรือสิ่งมีชีวิตที่ตรงกับอักขระที่ระบุ</string>
+    <string name="compendium_loading">กำลังเชื่อมต่อคลังข้อมูล SRD API...</string>
+    <string name="compendium_error">ไม่สามารถดึงข้อมูลจาก SRD API ได้ กรุณาตรวจสอบอินเทอร์เน็ต</string>
+
+    <!-- Common UI Elements & Actions -->
+    <string name="action_save">บันทึก</string>
+    <string name="action_cancel">ยกเลิก</string>
+    <string name="action_delete">ลบออก / ขับไล่</string>
+    <string name="action_edit">แก้ไข</string>
+    <string name="action_close">ปิด</string>
+    <string name="action_retry">ลองใหม่</string>
+    <string name="action_select">เลือก</string>
+    <string name="confirm_delete_title">ยืนยันการลบ</string>
+    <string name="confirm_delete_msg">ท่านแน่ใจหรือไม่ว่าต้องการลบข้อมูลนี้ออกจากคัมภีร์ตลอดกาล?</string>
+    <string name="status_loading">กำลังค้นหาภูมิปัญญาโบราณ...</string>
+    <string name="error_generic">เกิดความผิดปกติขึ้น: %1$s</string>
+    <string name="error_api_key_required">ยังไม่ได้ระบุ Oracle Key กรุณากรอก Gemini API Key ในหน้าแคมเปญ</string>
+    <string name="error_field_required">ช่องนี้ไม่สามารถเว้นว่างได้</string>
+
+    <!-- AI Prompt System Headers -->
+    <string name="ai_header_game_theory">การวิเคราะห์ทฤษฎีเกม</string>
+    <string name="ai_header_psychology">จิตวิทยาผู้เล่นและจังหวะนาฏกรรม</string>
+    <string name="ai_header_minimax">กลยุทธ์ Minimax และเงื่อนไขการชนะที่ไม่ใช่การฆ่าล้างปาร์ตี้</string>
+    <string name="ai_header_shadow_flaws">เงามืดในจิตใจและจุดบกพร่องที่นำไปสู่ความล่มจม</string>
+    <string name="ai_header_tit_for_tat">พลวัตตาต่อตาและข้อมูลที่ซ่อนอยู่</string>
+    <string name="ai_header_leverage">ไพ่ต่อรองทางสังคมและผลประโยชน์ต่างตอบแทน</string>
+</resources>

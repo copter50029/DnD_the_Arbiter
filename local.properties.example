@@ -1,0 +1,10 @@
+## Local Configuration Template for the Arbiter
+# Copy this file to 'local.properties' and fill in your local system paths and keys.
+# DO NOT commit 'local.properties' with actual secret keys.
+
+# Location of the Android SDK (automatically configured by Android Studio)
+# sdk.dir=/path/to/your/Android/Sdk
+
+# Google Gemini API Key for AI Oracle features
+# Obtain an API key from Google AI Studio: https://aistudio.google.com/
+gemini.api.key=YOUR_GEMINI_API_KEY_HERE

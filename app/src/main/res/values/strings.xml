@@ -1,0 +1,125 @@
+<resources>
+    <!-- App Information & Branding -->
+    <string name="app_name">the Arbiter</string>
+    <string name="app_name_full">the Arbiter (ผู้ชี้นำ)</string>
+    <string name="app_subtitle">AI-Assisted TTRPG Dungeon Master Companion</string>
+    <string name="app_tagline">Game Theory &amp; Player Psychology Advisory Co-pilot</string>
+
+    <!-- Navigation Tabs / Destinations -->
+    <string name="nav_campaigns">Chronicle</string>
+    <string name="nav_session_architect">Session Architect</string>
+    <string name="nav_dramatis_personae">Dramatis Personae</string>
+    <string name="nav_grand_compendium">Grand Compendium</string>
+
+    <!-- Screen 1: Campaign Chronicle -->
+    <string name="screen_campaigns_title">Campaign Chronicle</string>
+    <string name="screen_campaigns_subtitle">Sagas, Realms, &amp; Sanctuary Settings</string>
+    <string name="campaign_stats_title">Realm Overview</string>
+    <string name="campaign_stat_sessions">Sessions Logged</string>
+    <string name="campaign_stat_bosses">Dread Bosses</string>
+    <string name="campaign_stat_npcs">Active NPCs</string>
+    <string name="campaign_level_badge">Party Lv. %1$d</string>
+    <string name="btn_new_campaign">Inscribe New Campaign</string>
+    <string name="dialog_new_campaign_title">Forge a New Realm</string>
+    <string name="field_campaign_title">Campaign Title</string>
+    <string name="field_campaign_desc">Premise &amp; World Lore</string>
+    <string name="field_campaign_party_level">Average Party Level (1-20)</string>
+    <string name="no_campaigns_placeholder">No realms recorded in the Grimoire yet. Inscribe your first grand campaign below.</string>
+    <string name="settings_api_key_title">Gemini Oracle Key</string>
+    <string name="settings_api_key_desc">Configure Google Gemini API key to awaken the advisory co-pilot.</string>
+    <string name="settings_api_key_hint">Enter Gemini API Key (e.g. AIzaSy...)</string>
+    <string name="settings_api_key_save">Bind Oracle Key</string>
+    <string name="settings_api_key_status_bound">Oracle Key bound securely in grimoire</string>
+    <string name="settings_api_key_status_missing">Oracle Key missing — AI consultations disabled</string>
+    <string name="settings_language_title">Grimoire Tongue (Language)</string>
+    <string name="settings_language_toggle">Switch to ภาษาไทย</string>
+    <string name="settings_language_current">Current Language: English</string>
+    <string name="settings_model_title">Oracle AI Model</string>
+    <string name="settings_model_desc">Select your preferred Gemini model. If a model experiences high demand (503), switch to another model or try again later.</string>
+    <string name="btn_change_model">Change Model / Settings</string>
+
+    <!-- Screen 2: Session Architect -->
+    <string name="screen_session_title">Session Architect</string>
+    <string name="session_select_campaign_prompt">Select Realm Chronicle</string>
+    <string name="session_number_format">Session #%1$d</string>
+    <string name="session_recap_header">Echoes of the Past (Previous Sessions)</string>
+    <string name="session_recap_empty">No prior echoes logged. This is the maiden session for this realm.</string>
+    <string name="session_draft_header">Upcoming Session Prep &amp; Encounter Hooks</string>
+    <string name="session_draft_hint">Inscribe your upcoming encounter outline, dramatic choices, moral crossroads, or boss arena puzzles...</string>
+    <string name="session_past_events_hint">Brief recap of what transpired in previous sessions (context for AI)...</string>
+    <string name="btn_consult_oracle">Consult the Oracle (Gemini 3.8 Flash)</string>
+    <string name="session_ai_analyzing">Channeling the Oracle &amp; Consulting Ancient Runes...</string>
+    <string name="session_ai_card_psychology_title">Player Psychology &amp; Dramatic Pacing</string>
+    <string name="session_ai_card_psychology_subtitle">Tension vs. Relief Cycles, Bartle Archetypes, &amp; Agency Protection</string>
+    <string name="session_ai_card_game_theory_title">Game Theory &amp; Choice Architecture</string>
+    <string name="session_ai_card_game_theory_subtitle">Nash Equilibriums, Dominant Strategies, &amp; Dilemma Matrices</string>
+    <string name="btn_save_session">Seal into Tome (Save Session)</string>
+    <string name="session_save_success">Session chronicle safely bound to the tome.</string>
+    <string name="session_history_header">Recorded Sessions in Realm</string>
+
+    <!-- Screen 3: Dramatis Personae -->
+    <string name="screen_dramatis_title">Dramatis Personae</string>
+    <string name="tab_boss">Dread Boss</string>
+    <string name="tab_npc">Notable NPC</string>
+    <string name="character_name_label">Entity Name</string>
+    <string name="character_name_hint">e.g., Lord Malakor, Archlich of the Sunken Spire</string>
+    <string name="character_backstory_label">Persona Backstory &amp; Strategic Ambition</string>
+    <string name="character_backstory_hint">Draft origins, ideological core, hidden agendas, or leverage points...</string>
+    <string name="btn_attach_monster">Attach SRD Monster Statblock</string>
+    <string name="dialog_select_monster_title">Attach Monster from Compendium</string>
+    <string name="character_attached_monster">Linked SRD Statblock: %1$s</string>
+    <string name="character_no_monster">No SRD statblock attached</string>
+    <string name="btn_detach_monster">Detach</string>
+    <string name="btn_analyze_boss">Analyze Minimax &amp; Win Conditions</string>
+    <string name="btn_analyze_npc">Analyze Tit-for-Tat &amp; Quid-Pro-Quo</string>
+    <string name="feedback_boss_tactics_title">Minimax Tactics &amp; Non-TPK Win Conditions</string>
+    <string name="feedback_boss_psychology_title">Shadow-Self &amp; Psychological Flaws</string>
+    <string name="feedback_npc_gametheory_title">Tit-for-Tat Alignment &amp; Hidden Information</string>
+    <string name="feedback_npc_psychology_title">Emotional Leverage &amp; Quid-Pro-Quo</string>
+    <string name="btn_save_character">Inscribe Personage</string>
+    <string name="character_save_success">Personage recorded in the Grimoire.</string>
+    <string name="characters_list_header">Inscribed Personages in Realm</string>
+    <string name="no_characters_placeholder">No personages recorded for this realm yet.</string>
+
+    <!-- Screen 4: Grand Compendium -->
+    <string name="screen_compendium_title">Grand Compendium</string>
+    <string name="compendium_subtitle">D&amp;D 5e System Reference Document (SRD) Bestiary</string>
+    <string name="compendium_search_hint">Search creatures by name (e.g. dragon, lich, goblin)...</string>
+    <string name="compendium_stat_cr">CR</string>
+    <string name="compendium_cr_badge">CR %1$s</string>
+    <string name="compendium_ac_label">Armor Class</string>
+    <string name="compendium_hp_label">Hit Points</string>
+    <string name="compendium_type_label">Type</string>
+    <string name="compendium_size_label">Size</string>
+    <string name="compendium_alignment_label">Alignment</string>
+    <string name="compendium_speed_label">Speed</string>
+    <string name="compendium_actions_header">Actions &amp; Legendary Abilities</string>
+    <string name="compendium_special_abilities_header">Special Traits</string>
+    <string name="btn_export_to_dramatis">Export to Dramatis Personae</string>
+    <string name="compendium_empty">No beasts or monstrosities found matching the inscribed runes.</string>
+    <string name="compendium_loading">Channeling SRD API archives...</string>
+    <string name="compendium_error">Failed to query SRD archives. Check network connection.</string>
+
+    <!-- Common UI Elements & Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Exile / Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_close">Close</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_select">Select</string>
+    <string name="confirm_delete_title">Confirm Exile</string>
+    <string name="confirm_delete_msg">Are you certain you wish to purge this record from the Grimoire?</string>
+    <string name="status_loading">Consulting ancient wisdom...</string>
+    <string name="error_generic">An ominous rift occurred: %1$s</string>
+    <string name="error_api_key_required">Oracle Key is missing. Inscribe your Gemini API key in the Chronicle screen.</string>
+    <string name="error_field_required">This field cannot remain blank.</string>
+
+    <!-- AI Prompt System Headers -->
+    <string name="ai_header_game_theory">Game Theory Analysis</string>
+    <string name="ai_header_psychology">Player Psychology &amp; Pacing</string>
+    <string name="ai_header_minimax">Minimax Tactics &amp; Non-TPK Win Conditions</string>
+    <string name="ai_header_shadow_flaws">Shadow-Self &amp; Fatal Flaws</string>
+    <string name="ai_header_tit_for_tat">Tit-for-Tat Dynamics &amp; Hidden Information</string>
+    <string name="ai_header_leverage">Social Leverage &amp; Quid-Pro-Quo</string>
+</resources>
